@@ -94,7 +94,7 @@ function GetNaked()
                 ["mask"]         = { item = 0, texture = 0},  -- Masker
             },
         }
-        TriggerEvent('qb-clothes:client:loadOutfit'', nakedMale)
+        TriggerEvent('qb-clothes:client:loadOutfit', nakedMale)
     else
         local nakedFemale = {
             outfitData = {
